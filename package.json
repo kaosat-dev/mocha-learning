@@ -1,0 +1,19 @@
+{
+  "name": "mocha-learning",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register"
+  },
+  "author": "Mark 'kaosat-dev' Moissette",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.6.14",
+    "chai": "^3.0.0",
+    "mocha-traceur": "^2.1.0"
+  },
+  "dependencies": {
+    "rx": "^2.5.3"
+  }
+}
